@@ -64,9 +64,13 @@ Using the grep function, extract all of the variables for mean and standard devi
 
 ### Point 5 of the assignment lines(84 - 170)
 
-Using the finalData data frame, create an additional dataset which hold the average for each varuable and each subject. To do this, us the aggreate function which takes every column that is numeric and calculates the mean, grouped by the activity type variable. This is finalSummary.
+Using the finalData data frame, create an additional dataset which hold the average for each varuable and each subject. To do this, use the aggreate function which takes every column that is numeric and calculates the mean, grouped by the activity type variable. This is finalSummary.
 
 ### Prepeare for codebook
 
-Provide a short description for each of the individual variables. Then load the dataMaid library whch has a function to build a codebook based on the finalSummary data frame. THis icludes all of the names and descriptions along with some basic summary statistics on each variable.
+Provide a short description for each of the individual variables. Then load the dataMaid library which has a function to build a codebook based on the finalSummary data frame. This includes all of the names and descriptions along with some basic summary statistics on each variable.
+
+### Output the data
+
+Using the write.table( function, export the data  (with no row names))
 

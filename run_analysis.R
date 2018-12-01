@@ -167,3 +167,5 @@ library(dataMaid)
 
 makeCodebook(finalSummary, replace = TRUE, mode = "summarize")
 
+## Export the data to a txt file
+write.table(finalSummary, "finalSummary.txt", row.names = FALSE)
